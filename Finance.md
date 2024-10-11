@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2024-01-16
+version: 2024-09-19
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -48,7 +48,7 @@ Views](https://github.com/cran-task-views) repo for details.
     task view. Below a brief overview of the most important methods in finance is given.
 -   Classical time series functionality is provided by the `arima()` and `KalmanLike()` commands in
     the basic R distribution.
--   The `r pkg("dse")` and `r pkg("timsac")` packages provide a variety of more advanced estimation
+-   The `r pkg("timsac")` package provides a variety of more advanced estimation
     methods; `r pkg("fracdiff")` can estimate fractionally integrated series; `r pkg("longmemo")`
     covers related material.
 -   For volatility modeling, the standard GARCH(1,1) model can be estimated with the `garch()`
@@ -127,9 +127,6 @@ Views](https://github.com/cran-task-views) repo for details.
     pricing model.
 -   The `r pkg("BurStFin")` and `r pkg("BurStMisc")` package has a collection of function for
     Finance including the estimation of covariance matrices.
--   The `r pkg("AmericanCallOpt")` package contains a pricer for different American call options.
--   The `r pkg("FinAsym")` package implements the Lee and Ready (1991) and Easley and O'Hara (1987)
-    tests for, respectively, trade direction, and probability of informed trading.
 -   The `r pkg("parma")` package provides support for portfolio allocation and risk management
     applications.
 -   The `r pkg("GUIDE")` package provides a *GUI* for *DE* rivatives and contains numerous pricer
@@ -314,8 +311,6 @@ Views](https://github.com/cran-task-views) repo for details.
     on, inter alia, the `r pkg("XBRL")` package for parsing these reports.
 -   The `r pkg("GetTDData")` package imports Brazilian government bonds data (such as LTN, NTN-B and
     LFT ) from the Tesouro Direto website.
--   The `r pkg("fmdates")` package implements common date calculations according to the ISDA
-    schedules, and can check for business in different locales.
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
 -   Exchange data can be accessed (with a free API subscription) via package `r pkg("freecurrencyapi")`.
